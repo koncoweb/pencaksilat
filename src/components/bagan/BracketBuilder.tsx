@@ -1452,9 +1452,7 @@ const BracketBuilder = () => {
                                             )}
                                             <span className="font-medium">
                                               {participant?.name
-                                                ? participant.seed
-                                                  ? `Seed ${participant.seed}`
-                                                  : participant.name
+                                                ? participant.name
                                                 : "TBD"}
                                             </span>
                                           </div>
